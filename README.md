@@ -70,29 +70,29 @@ The following is the formal specification of the production rules that govern th
 
 /* Instruction Categories */
 
-`<instruccion>     ::= <inst_noarg>
+`<instruccion>     ::= <inst_noarg>`
 
-                    | <inst_add>
+`                    | <inst_add>`
 
-                    | <inst_push>
+`                    | <inst_push>`
                     
-                    | <inst_pop>
+`                    | <inst_pop>`
                     
-                    | <inst_not>
+`                    | <inst_not>`
                     
-                    | <inst_inc>
+`                    | <inst_inc>`
                     
-                    | <inst_dec>
+`                    | <inst_dec>`
                     
-                    | <inst_cmp>
+`                    | <inst_cmp>`
                     
-                    | <inst_xcmp>
+`                    | <inst_xcmp>`
                     
-                    | <inst_in>
+`                    | <inst_in>`
                     
-                    | <inst_out>
+`                    | <inst_out>`
                     
-                    | <inst_mov>`
+`                    | <inst_mov>`
 
 /* 1. Instructions Without Arguments */
 
