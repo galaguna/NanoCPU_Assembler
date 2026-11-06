@@ -1,5 +1,5 @@
 ; Program Example_04:
-;Lable		Mnemonic	Arguments
+;Label		Mnemonic	Arguments
 			ORG 		0x0000
         	OUT 		0x07,[0x00]
 			STOP
@@ -7,7 +7,7 @@
 			ORG 		0x0010
  ISS0:		NOP
 			IN 			[0x01]		; IN=>AL
-       	MOV 		0x00FE,B
+       		MOV 		0x00FE,B
 			AND 		;A,B-> R
 			MOV 		RL,A
 			OUT 		[0x01]		; AL=> OUT

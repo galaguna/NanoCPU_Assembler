@@ -1,5 +1,5 @@
 ; Program Example_03b:
-;Lable		Mnemonic	Arguments
+;Label		Mnemonic	Arguments
         	MOV 		0x0000,A
         	MOV 		A,[0x0000]
         	MOV 		0xFFF6,B
@@ -13,4 +13,4 @@ RESTO:    	MOV 		0x0001,A
         	MOV 		0x0000,B
         	UADD 		;A,B=>R
         	JMP  		RESTO
-END:   	STOP
+END:   	        STOP

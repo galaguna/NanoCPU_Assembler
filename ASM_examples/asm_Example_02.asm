@@ -1,5 +1,5 @@
 ; Program Example_02:
-;Lable		Mnemonic	Arguments
+;Label		Mnemonic	Arguments
         	MOV 		0xFFF6,B
         	MOV 		0x0001,A
         	MOV 		0x80,USP
@@ -15,4 +15,4 @@ RESTO:    	MOV 		[USP],B
         	JZ16 		END       
         	DEC 		USP
         	JMP 		RESTO
-END:   	STOP
+END:   	        STOP
